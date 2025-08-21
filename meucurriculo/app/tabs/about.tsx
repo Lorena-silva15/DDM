@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function AboutScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Ete´s 2 👽</Text>
+      <Text style={styles.text}>Lorena da silva 2ºC 👽👽 </Text>
     </View>
   );
 }
