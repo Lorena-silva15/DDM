@@ -1,7 +1,12 @@
 import { Link, Stack } from 'expo-router';
 import { StyleSheet, View } from 'react-native';
+import {Redirect} from 'expo-router'
 
-export default function NotFoundScreen() {
+export default function Home(){
+   return<Redirect href='/tabs' />
+}
+
+export  function NotFoundScreen() {
   return (
     <>
       <Stack.Screen options={{ title: 'Oops! Not Found' }} />
